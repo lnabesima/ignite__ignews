@@ -1,6 +1,15 @@
 import Head from 'next/head';
-import Image from 'next/image';
+
 
 export default function Home() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Head>
+        <title>ig.news - Home</title>
+      </Head>
+      <h1 className='title'>
+        Hello <span>World</span>
+      </h1>
+    </>
+  );
 }
